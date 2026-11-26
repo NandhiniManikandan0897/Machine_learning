@@ -1,0 +1,29 @@
+A company works with number of employees, all the works are dependents on the employees. Even
+if one of the employees resign the job immediately then assigned work will be not finished at the
+time, so delivery of the project to the clients will be delayed. Company planned to make solution for
+this, they want to know which employee may resign next. If they know previously, they can arrange
+alternative to avoid such problem. As an AI Engineer you must give Solution to this.
+
+
+A) How will you achieve this in AI?
+
+Set a employee exit rule with 2 months of Notice period , when employee drops a resignation paper their notice period of 2 months will be calculated from that date . So , that we will come to know about their last working date in before hand with that data we can assign and dedicate another employee for the consequent work without any delay or abrusion.
+
+goal --> setting notice period 
+
+B) Find out the 3 -Stage of Problem Identification
+
+Stage 1 --> Time series Analysis --. Since it is date based 
+Stage 2 --> Supervised --> we have clear requirement and output 
+stage 3 --> Regression ---> since it is numerical based
+
+C) Name the project
+
+Employee exit prediction 
+
+D) Create the dummy Dataset.
+
+employee name ---regrestration no---employee date of joining---Date of resignation---notice period calculated---
+Nandhini      ---12201           ---24/11/2023---01/10/2026---01/12/2026---
+Aniruth       ---12205           ---12/07/2022---15/10/2026---n15/12/2026---
+AAdhiran      ---1111            ------01/01/2023---10/12/26---10/02/2027---
